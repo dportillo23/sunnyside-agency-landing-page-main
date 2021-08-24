@@ -1,0 +1,61 @@
+footer {
+    background: $col-footer-background;
+    padding: 4rem;
+
+    .footer--logo {
+        margin-bottom: 3rem;
+
+        svg {
+            transform: scale(1.5);
+        }
+
+        path {
+            fill: $col-dark-cyan;
+        }
+    }
+
+    .footer--links {
+        display: flex;
+        gap: 4rem;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5rem;
+
+
+        a {
+            color: $col-dark-cyan;
+            cursor: pointer;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+
+    .social--container {
+        display: flex;
+        gap: calc(max(3%, 1.8rem));
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social--link {
+            cursor: pointer;
+    
+            &:hover {
+                path {
+                    fill: white;
+                }
+            }
+    }
+}
+
+
+.attribution {
+    font-size: 0.7rem;
+    text-align: center;
+
+    a {
+        color: hsl(228, 45%, 44%);
+    }
+}

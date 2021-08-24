@@ -1,0 +1,158 @@
+@media (min-width: 769px) {
+
+    .desktop--img {
+        display: block;
+    }
+
+    
+    .mobile--img {
+        display: none;
+    }
+
+    .header--section {
+        .hero--content {
+
+            gap: 3rem;
+
+            .title {
+                font-size: calc(min(20vw, 3.5rem));
+            }
+        }
+    }
+
+    .about {
+        width: 100%;
+
+        .about__box {
+            flex-direction: row;
+
+            &.transform__box {
+                flex-direction: row-reverse;
+            }
+        }
+
+    }
+
+    .section--tile {
+        max-width: unset;
+        // text-align: left;
+        padding: 3vw 5vw 3vw 8vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+
+        .section--more {
+            align-self: center;
+        }
+
+        .section--title {
+            font-size: calc(min(3.5vw, 2.5rem));
+        }
+
+        .section--text {
+            font-size: 1rem;
+            line-height: calc(min(3.5vw, 1.9rem));
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    .services {
+        display: flex;
+        flex-direction: row;
+
+        .services--container {
+            flex-basis: 50%;
+
+            .services--content {
+                bottom: 5%;
+            }
+        }
+    }
+
+    .testimonials {
+        padding: 13.5% 10%;
+
+        h1 {
+            font-size: 1.3rem;
+            margin-bottom: 3rem;
+        }
+    }
+
+    .testimonial--container {
+        display: flex;
+        flex-direction: row;
+
+        .testimonial--card {
+            padding: 0 0.5rem;
+
+            .avatar {
+                margin-bottom: 3.5rem;
+            }
+
+            .testimonial--text {
+                margin-bottom: 4rem;
+            }
+        }
+    }
+
+    .pics {
+        display: flex;
+        max-width: 100vw;
+
+        .pic--grid {
+            width: 25%;
+            height: auto;
+            flex: 0 0 25%;
+        }
+    }
+
+    
+
+}
+
+@media (min-width: 1024px) {
+
+    .section--tile {
+        padding: 2vw 7vw 2vw 12vw;
+        text-align: left;
+
+        &.stand--out {
+            padding: 2vw 10vw 2vw 7vw;
+        }
+        
+        .section--text {
+            margin-bottom: 2.1rem;
+        }
+
+        .section--more {
+            align-self: flex-start;
+        }
+    }
+}
+
+@media (min-width: 1720px) {
+    html {
+        font-size: 24px;
+    }
+.services {
+
+
+    .services--container {
+
+        .services--content {
+            max-width: 640px;
+            bottom: 20%;
+        }
+    }
+}
+
+footer {
+    .social--link {
+        svg {
+            transform: scale(2);
+        }
+    }
+}
+}

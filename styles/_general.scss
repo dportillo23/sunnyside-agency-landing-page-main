@@ -1,0 +1,44 @@
+*, *::before, *::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Fraunces', serif;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+li {
+    a {
+        text-decoration: none;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translatey(20%);
+    transition: all 500ms ease-in-out;
+
+    &.appear {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.mobile--img {
+    width: 100%;
+    height: auto;
+    // opacity: 0.5; // Temporal
+}
+.desktop--img {
+    display: none;
+}
