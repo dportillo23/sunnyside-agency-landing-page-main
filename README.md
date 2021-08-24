@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend mentor solution](https://www.frontendmentor.io/solutions/responsive-landing-page-using-sass-and-jquery-oGQmmgvTS)
 - Live Site URL: [Preview Site](https://dportillo23.github.io/sunnyside-agency-landing-page-main/)
 
 ## My process
