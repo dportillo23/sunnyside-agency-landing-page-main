@@ -664,16 +664,13 @@ footer .social--link:hover path {
 }
 
 @media (min-width: 1720px) {
-  html {
-    font-size: 24px;
-  }
   .services .services--container .services--content {
     max-width: 640px;
     bottom: 20%;
   }
   footer .social--link svg {
-    -webkit-transform: scale(2);
-            transform: scale(2);
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
   }
 }
 /*# sourceMappingURL=styles.css.map */
